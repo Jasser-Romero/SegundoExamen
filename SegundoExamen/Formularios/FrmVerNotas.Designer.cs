@@ -48,6 +48,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "FrmVerNotas";
             this.Text = "FrmVerNotas";
+            this.Load += new System.EventHandler(this.FrmVerNotas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -55,6 +56,6 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        public System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -1,4 +1,5 @@
 ﻿using AppCore.Interfaces;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,9 +15,16 @@ namespace SegundoExamen.Formularios
     public partial class FrmVerNotas : Form
     {
         public INotaService notaService { get; set; }
+        public List<Nota> notas = new List<Nota>();
+        public int Id { get; set; }
         public FrmVerNotas()
         {
             InitializeComponent();
+        }
+
+        private void FrmVerNotas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -61,9 +61,19 @@ namespace SegundoExamen.Formularios
 
         private void btnVerNotas_Click(object sender, EventArgs e)
         {
+            int i = 0;
+            List<Nota> notas = notaService.GetNotasById((int)dgvEstudiantes.CurrentRow.Cells[0].Value);
+            List<string> nombres = notas.Select(x => x.Estudiante.Nombre).ToList();
             FrmVerNotas frmVerNotas = new FrmVerNotas();
             frmVerNotas.notaService = notaService;
+            frmVerNotas.Id = (int)dgvEstudiantes.CurrentRow.Cells[0].Value;
+            frmVerNotas.dataGridView1.DataSource = notas;
             frmVerNotas.ShowDialog();
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

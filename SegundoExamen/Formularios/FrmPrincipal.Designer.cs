@@ -97,6 +97,7 @@ namespace SegundoExamen.Formularios
             this.Controls.Add(this.dgvEstudiantes);
             this.Name = "FrmPrincipal";
             this.Text = "FrmPrincipal";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiantes)).EndInit();
             this.ResumeLayout(false);
 
