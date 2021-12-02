@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ExjhvQYl6721FaBSMH42JIfpdT8fdd/Jdrc9Pb78b3HGdxtgjdhOqaPVNfz7A09U5rmQlu7C1wMurpgETI7Myg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\SegundoExamen\\Infraestructure\\Infraestructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
