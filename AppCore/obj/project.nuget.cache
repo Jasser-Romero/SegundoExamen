@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qkvc2rBOJGN5ZMZcEPSKpxJlNY69gIqmK6y60icvBz3XcR78Kk79V7IVDzI9QnAPzXF8JXhO3aOXDAB7ao6Fsg==",
+  "dgSpecHash": "HLtyK4RuNN3NJ0UrXFWxqYt6KuNhO4UwSX7H4qrFieQL2zJ8O56GrdBOtGRLWSHwp7xfSkV7n0mgfMBBpvWaaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JADPA_10\\Source\\Repos\\SegundoExamen\\AppCore\\AppCore.csproj",
+  "projectFilePath": "C:\\Users\\JADPA_10\\Downloads\\SegundoExamen\\AppCore\\AppCore.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
